@@ -1,0 +1,18 @@
+{
+  "documents": [
+    {
+      "document_id": "niddk_what_is_diabetes",
+      "filename": "niddk_what_is_diabetes.pdf",
+      "title": "What Is Diabetes?",
+      "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), NIH",
+      "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes",
+      "last_reviewed": "2023-04",
+      "last_reviewed_precision": "month",
+      "snapshot_date": "2026-10-02",
+      "format": "browser_printed_pdf",
+      "page_reference_type": "local_pdf_snapshot",
+      "reuse_policy_url": "https://www.niddk.nih.gov/copyright",
+      "reuse_notes": "NIDDK permits reuse of most content with attribution, subject to exceptions. Extract article text only; do not reuse logos or third-party graphics or imply endorsement."
+    }
+  ]
+}
