@@ -1,0 +1,22 @@
+# Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+.aws/
+*.pem
+*.key
+
+# Downloaded documents, indexes, and model caches
+data/documents/*
+data/index/
+data/cache/
+.cache/
+
+# macOS
+.DS_Store
