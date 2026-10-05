@@ -4,3 +4,4 @@ sentence-transformers==6.1.0
 scipy==1.14.1
 numpy==2.2.6
 scikit-learn==1.7.2
+chromadb==1.5.9
