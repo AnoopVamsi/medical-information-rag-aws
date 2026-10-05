@@ -20,7 +20,7 @@ def clean_page_text(text):
     cleaned_lines = []
 
     for line in text.splitlines():
-        line = line.strip()
+        line =  re.sub(r"[\uE000-\uF8FF]", "", line).strip()
 
         if line.startswith("Last Reviewed"):
             break
@@ -96,7 +96,7 @@ def load_pages():
                 raise ValueError(f"PDF requires a password: {filename}")
 
             for page_number, page in enumerate(document, start=1):
-                raw_text = page.get_text("text", sort=True)
+                raw_text = page.get_text("text", sort=False)
                 text = clean_page_text(raw_text)
 
                 if not text:
